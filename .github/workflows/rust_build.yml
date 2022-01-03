@@ -13,7 +13,7 @@ jobs:
       PLUGIN_NAME: wuBoy-ultimate-modpack_patcher # CHANGE THIS TO THE NAME OF YOUR TEMPLATE!
     runs-on: ubuntu-latest
     container: 
-      image: jugeeya/cargo-skyline:2.1.0
+      image: jam1garner/cargo-skyline
     steps:
     - uses: actions/checkout@v2
     - name: Build release NRO
