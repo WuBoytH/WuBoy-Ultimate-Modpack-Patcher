@@ -10,7 +10,7 @@ on:
 jobs:
   plugin:
     env:
-      PLUGIN_NAME: wuBoy-ultimate-modpack_patcher # CHANGE THIS TO THE NAME OF YOUR TEMPLATE!
+      PLUGIN_NAME: wuboy-ultimate-modpack_patcher # CHANGE THIS TO THE NAME OF YOUR TEMPLATE!
     runs-on: ubuntu-latest
     container: 
       image: jam1garner/cargo-skyline
